@@ -16,5 +16,6 @@ struct ForgetPasswordView: View {
 struct ForgetPasswordView_Previews: PreviewProvider {
     static var previews: some View {
         ForgetPasswordView()
+            .preferredColorScheme(.dark)
     }
 }

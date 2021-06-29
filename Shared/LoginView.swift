@@ -10,7 +10,7 @@ import SwiftUI
 struct LoginView: View {
     @State private var username = ""
     @State private var password = ""
-    @State var showPassword = false
+    @State private var showPassword = false
     
     var body: some View {
         NavigationView {
@@ -24,12 +24,16 @@ struct LoginView: View {
                     .fontWeight(.bold)
                 VStack {
                     TextField("用户名", text: $username)
+                    #if os(iOS)
                         .keyboardType(.asciiCapable)
+                    #endif
                     Divider()
                     HStack {
                         if showPassword {
                             TextField("密码", text: $password)
+                            #if os(iOS)
                                 .keyboardType(.asciiCapable)
+                            #endif
                         } else {
                         SecureField("密码", text: $password)
                         }
@@ -43,7 +47,6 @@ struct LoginView: View {
                 }
                 .padding()
                 .overlay(RoundedRectangle(cornerRadius: 20.0).stroke(.gray, lineWidth: 1.0))
-                
                 let isCanLogin: Bool = Int(username) != nil && password.count > 0
                 Button(action: {}) {
                     Text("登录...")
@@ -61,11 +64,14 @@ struct LoginView: View {
             }
             .padding([.leading, .trailing])
         }
-        }
+    }
 }
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        Group {
+            LoginView()
+                .preferredColorScheme(.light)
+        }
     }
 }

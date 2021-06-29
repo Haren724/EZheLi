@@ -51,6 +51,7 @@
 		8F49F2A5268965DC00EDDADA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8F49F2A826898F2400EDDADA /* EZheLi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EZheLi.entitlements; sourceTree = "<group>"; };
 		8F49F2A92689906800EDDADA /* ForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordView.swift; sourceTree = "<group>"; };
+		8F8F2AD9268A1F9800AC0C94 /* EZheLi--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "EZheLi--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 		8F49F269268961DE00EDDADA = {
 			isa = PBXGroup;
 			children = (
+				8F8F2AD9268A1F9800AC0C94 /* EZheLi--iOS--Info.plist */,
 				8F49F2A826898F2400EDDADA /* EZheLi.entitlements */,
 				8F49F26E268961DE00EDDADA /* Shared */,
 				8F49F284268961DE00EDDADA /* Tests iOS */,
@@ -459,12 +461,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = EZheLi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24Q962SK3B;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EZheLi--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = EZheLi;
+				INFOPLIST_KEY_CFBundleName = EZheLi;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -491,12 +499,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = EZheLi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24Q962SK3B;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EZheLi--iOS--Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = EZheLi;
+				INFOPLIST_KEY_CFBundleName = EZheLi;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
