@@ -19,6 +19,10 @@
 		8F49F2A7268965DC00EDDADA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F2A5268965DC00EDDADA /* LoginView.swift */; };
 		8F49F2AA2689906800EDDADA /* ForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F2A92689906800EDDADA /* ForgetPasswordView.swift */; };
 		8F49F2AB2689906800EDDADA /* ForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F49F2A92689906800EDDADA /* ForgetPasswordView.swift */; };
+		8F98B819268AF218001B6783 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98B818268AF218001B6783 /* HomeView.swift */; };
+		8F98B81A268AF218001B6783 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98B818268AF218001B6783 /* HomeView.swift */; };
+		8FBF3675268AD2FE0044BA51 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF3674268AD2FE0044BA51 /* MainView.swift */; };
+		8FBF3676268AD2FE0044BA51 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF3674268AD2FE0044BA51 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,8 @@
 		8F49F2A826898F2400EDDADA /* EZheLi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EZheLi.entitlements; sourceTree = "<group>"; };
 		8F49F2A92689906800EDDADA /* ForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordView.swift; sourceTree = "<group>"; };
 		8F8F2AD9268A1F9800AC0C94 /* EZheLi--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "EZheLi--iOS--Info.plist"; sourceTree = "<group>"; };
+		8F98B818268AF218001B6783 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8FBF3674268AD2FE0044BA51 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,8 @@
 				8F49F26F268961DE00EDDADA /* EZheLiApp.swift */,
 				8F49F270268961DE00EDDADA /* ContentView.swift */,
 				8F49F2A5268965DC00EDDADA /* LoginView.swift */,
+				8FBF3674268AD2FE0044BA51 /* MainView.swift */,
+				8F98B818268AF218001B6783 /* HomeView.swift */,
 				8F49F2A92689906800EDDADA /* ForgetPasswordView.swift */,
 				8F49F271268961DE00EDDADA /* Assets.xcassets */,
 			);
@@ -298,6 +306,8 @@
 				8F49F2AA2689906800EDDADA /* ForgetPasswordView.swift in Sources */,
 				8F49F2A6268965DC00EDDADA /* LoginView.swift in Sources */,
 				8F49F293268961DF00EDDADA /* ContentView.swift in Sources */,
+				8F98B819268AF218001B6783 /* HomeView.swift in Sources */,
+				8FBF3675268AD2FE0044BA51 /* MainView.swift in Sources */,
 				8F49F291268961DF00EDDADA /* EZheLiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +319,8 @@
 				8F49F2AB2689906800EDDADA /* ForgetPasswordView.swift in Sources */,
 				8F49F2A7268965DC00EDDADA /* LoginView.swift in Sources */,
 				8F49F294268961DF00EDDADA /* ContentView.swift in Sources */,
+				8F98B81A268AF218001B6783 /* HomeView.swift in Sources */,
+				8FBF3676268AD2FE0044BA51 /* MainView.swift in Sources */,
 				8F49F292268961DF00EDDADA /* EZheLiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,7 +490,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,7 +528,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
