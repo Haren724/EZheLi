@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import WebKit
 
 struct ContentView: View {
+    let EZheLi_URL = URL(string: "http://stu.zstu.edu.cn")
     var body: some View {
-        LoginView()
+        QRCodeFake()
     }
 }
 
