@@ -23,10 +23,12 @@
 		8F98B81A268AF218001B6783 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F98B818268AF218001B6783 /* HomeView.swift */; };
 		8FBF3675268AD2FE0044BA51 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF3674268AD2FE0044BA51 /* MainView.swift */; };
 		8FBF3676268AD2FE0044BA51 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBF3674268AD2FE0044BA51 /* MainView.swift */; };
+		9153C214275294B200FFA743 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153C213275294AD00FFA743 /* Login.swift */; };
+		9153C215275294B200FFA743 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9153C213275294AD00FFA743 /* Login.swift */; };
 		91FC1DAD26C910AA00B36FFD /* SettingsView.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC1DAC26C910AA00B36FFD /* SettingsView.swift.swift */; };
 		91FC1DAE26C910AA00B36FFD /* SettingsView.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FC1DAC26C910AA00B36FFD /* SettingsView.swift.swift */; };
-		91FD1FEA26EA6B140013EAE3 /* QRCodeFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD1FE926EA6B140013EAE3 /* QRCodeFake.swift */; };
-		91FD1FEB26EA6B140013EAE3 /* QRCodeFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD1FE926EA6B140013EAE3 /* QRCodeFake.swift */; };
+		91FD1FEA26EA6B140013EAE3 /* FakeQRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD1FE926EA6B140013EAE3 /* FakeQRView.swift */; };
+		91FD1FEB26EA6B140013EAE3 /* FakeQRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD1FE926EA6B140013EAE3 /* FakeQRView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +64,10 @@
 		8F8F2AD9268A1F9800AC0C94 /* EZheLi--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "EZheLi--iOS--Info.plist"; sourceTree = "<group>"; };
 		8F98B818268AF218001B6783 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8FBF3674268AD2FE0044BA51 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9153C213275294AD00FFA743 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		91BD2DAA26A55F78005C00EC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		91FC1DAC26C910AA00B36FFD /* SettingsView.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift.swift; sourceTree = "<group>"; };
-		91FD1FE926EA6B140013EAE3 /* QRCodeFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeFake.swift; sourceTree = "<group>"; };
+		91FD1FE926EA6B140013EAE3 /* FakeQRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeQRView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				91BD2DAA26A55F78005C00EC /* README.md */,
 				8F8F2AD9268A1F9800AC0C94 /* EZheLi--iOS--Info.plist */,
 				8F49F2A826898F2400EDDADA /* EZheLi.entitlements */,
+				9153C2112752941700FFA743 /* Views */,
 				8F49F26E268961DE00EDDADA /* Shared */,
 				8F49F284268961DE00EDDADA /* Tests iOS */,
 				8F49F28E268961DF00EDDADA /* Tests macOS */,
@@ -115,14 +119,8 @@
 		8F49F26E268961DE00EDDADA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9153C213275294AD00FFA743 /* Login.swift */,
 				8F49F26F268961DE00EDDADA /* EZheLiApp.swift */,
-				91FC1DAC26C910AA00B36FFD /* SettingsView.swift.swift */,
-				8F49F270268961DE00EDDADA /* ContentView.swift */,
-				8F49F2A5268965DC00EDDADA /* LoginView.swift */,
-				8FBF3674268AD2FE0044BA51 /* MainView.swift */,
-				8F98B818268AF218001B6783 /* HomeView.swift */,
-				8F49F2A92689906800EDDADA /* ForgetPasswordView.swift */,
-				91FD1FE926EA6B140013EAE3 /* QRCodeFake.swift */,
 				8F49F271268961DE00EDDADA /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -153,6 +151,20 @@
 				8F49F28F268961DF00EDDADA /* Tests_macOS.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		9153C2112752941700FFA743 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F49F270268961DE00EDDADA /* ContentView.swift */,
+				91FC1DAC26C910AA00B36FFD /* SettingsView.swift.swift */,
+				8F49F2A5268965DC00EDDADA /* LoginView.swift */,
+				8FBF3674268AD2FE0044BA51 /* MainView.swift */,
+				8F98B818268AF218001B6783 /* HomeView.swift */,
+				8F49F2A92689906800EDDADA /* ForgetPasswordView.swift */,
+				91FD1FE926EA6B140013EAE3 /* FakeQRView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,12 +325,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91FD1FEA26EA6B140013EAE3 /* QRCodeFake.swift in Sources */,
+				91FD1FEA26EA6B140013EAE3 /* FakeQRView.swift in Sources */,
 				8F49F2AA2689906800EDDADA /* ForgetPasswordView.swift in Sources */,
 				8F49F2A6268965DC00EDDADA /* LoginView.swift in Sources */,
 				8F49F293268961DF00EDDADA /* ContentView.swift in Sources */,
 				91FC1DAD26C910AA00B36FFD /* SettingsView.swift.swift in Sources */,
 				8F98B819268AF218001B6783 /* HomeView.swift in Sources */,
+				9153C214275294B200FFA743 /* Login.swift in Sources */,
 				8FBF3675268AD2FE0044BA51 /* MainView.swift in Sources */,
 				8F49F291268961DF00EDDADA /* EZheLiApp.swift in Sources */,
 			);
@@ -328,12 +341,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91FD1FEB26EA6B140013EAE3 /* QRCodeFake.swift in Sources */,
+				91FD1FEB26EA6B140013EAE3 /* FakeQRView.swift in Sources */,
 				8F49F2AB2689906800EDDADA /* ForgetPasswordView.swift in Sources */,
 				8F49F2A7268965DC00EDDADA /* LoginView.swift in Sources */,
 				8F49F294268961DF00EDDADA /* ContentView.swift in Sources */,
 				91FC1DAE26C910AA00B36FFD /* SettingsView.swift.swift in Sources */,
 				8F98B81A268AF218001B6783 /* HomeView.swift in Sources */,
+				9153C215275294B200FFA743 /* Login.swift in Sources */,
 				8FBF3676268AD2FE0044BA51 /* MainView.swift in Sources */,
 				8F49F292268961DF00EDDADA /* EZheLiApp.swift in Sources */,
 			);
